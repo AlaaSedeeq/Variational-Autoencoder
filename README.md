@@ -12,11 +12,11 @@ First let's define the generative model. The generative A model for the probabil
 
 
 **Learning a generative model for data:**
-- Given set of observation $X$ = { $$x$$ }
-- Choose a model $P(X|θ)$ for the distribution of $$X$$
+- Given set of observation $X$ = { $x$ }
+- Choose a model $P(X|θ)$ for the distribution of $X$
 - Estimate $θ$ such that $P(X|θ)$ best fit to data (Results in maximum log likelihood estimation)
 
-<br>To get a sample same as our data, we must learn the distribution of the data, then sample from it.<br>
+<br>To get a sample same as our data, we must learn the distribution of the data, then sample from it.<br><br>
 <img src="images/VAE_STR.jpg"></img>
 
 - *Z** is the latent space representation of the data.
